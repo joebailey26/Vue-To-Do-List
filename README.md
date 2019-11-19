@@ -28,4 +28,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 - [ ] Custom Styles
 
-- [ ] Get add To Do item to work
+- [x] Get add To Do item to work
