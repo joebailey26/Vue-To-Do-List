@@ -2,6 +2,8 @@
 
 > A Vue.js To Do List
 
+Tutorial: [scotch.io](https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2)
+
 ## Build Setup
 
 ``` bash
