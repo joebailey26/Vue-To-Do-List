@@ -26,7 +26,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 - [ ] Add Firebase Support
 
-- [ ] Persist in Local Browser Storage
+- [x] Persist in Local Browser Storage
 
 - [ ] Custom Styles
 

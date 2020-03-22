@@ -15,6 +15,7 @@ export default {
     TodoList,
     CreateTodo
   },
+
   data () {
     return {
       todos: [{
@@ -36,9 +37,16 @@ export default {
       }]
     }
   },
+  mounted () {
+    if (localStorage.name) this.todos = JSON.parse(localStorage.name)
+  },
+  watch: {
+    todos (newName) {
+      localStorage.name = JSON.stringify(newName)
+    }
+  },
   methods: {
     createTodo (newTodo) {
-      console.log(newTodo)
       this.todos.push(newTodo)
     }
   }
